@@ -4,9 +4,9 @@ public class MaxSliceSum {
 
 	public static void main(String[] args) {
 
-		int[] C = new int[] {1, 0, 2, -1, -2, 0, 1, 3};	// 4
+		int[] b = new int[] {1, 0, 2, -1, -2, 0, 1, 3};	// 4
 
-		System.out.println(solution(C));
+		System.out.println(solution(b));
 	}
 
 	public static int solution(int[] A) {
