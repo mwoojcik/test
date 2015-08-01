@@ -7,6 +7,10 @@ public class MaxSliceSum {
 		int[] c = new int[] {-1, 3, -3,-1,5}; //1
 		
 		System.out.println(solution(c));
+
+		int[] b = new int[] {1, 0, 2, -1, -2, 0, 1, 3};	// 4
+
+		System.out.println(solution(b));
 	}
 
 	public static int solution(int[] A) {
